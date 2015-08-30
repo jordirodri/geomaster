@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="wrap_content"
+		android:orientation="vertical" android:id="@+id/linearLayout1"
+		android:layout_height="wrap_content" android:layout_marginTop="10dp"
+		android:layout_centerHorizontal="true"
+		style="@style/EndGameInfo">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:orientation="vertical" 
+		android:id="@+id/linearLayout1"
+		android:layout_height="wrap_content" 
+		android:layout_margin="10dp"
+		android:layout_centerHorizontal="true">
+
+		<TextView android:layout_width="wrap_content" android:id="@+id/textEndGamePopUp1"
+			android:text="@string/game_over_title" style="@style/PopupTitleText"
+			android:layout_height="wrap_content" android:layout_gravity="center">
+		</TextView>
+
+	</LinearLayout>
+	
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" 		
+		android:layout_height="wrap_content" 
+		android:layout_alignTop="@+id/linearLayout2">
+		
+		<View android:layout_height="1dp" 
+		android:background="#FFFFFF" 
+		android:layout_width="fill_parent"></View>
+		
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:orientation="vertical" android:id="@+id/linearLayout2"
+		android:layout_height="wrap_content" 	
+		android:layout_margin="10dp"			
+		android:layout_centerHorizontal="true" android:layout_gravity="center">
+
+		<LinearLayout android:layout_width="wrap_content"
+			android:orientation="horizontal" android:id="@+id/linearLayout3"
+			android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+
+			<ImageView android:id="@+id/imageEndGame"
+				android:layout_width="80dp" android:layout_height="80dp"></ImageView>
+
+			<LinearLayout android:layout_width="wrap_content"
+				android:orientation="vertical" android:id="@+id/linearLayout4"
+				android:layout_height="wrap_content" android:layout_marginTop="10dp"
+				android:layout_centerHorizontal="true">
+
+				<TextView android:layout_width="wrap_content" android:id="@+id/textEndGamePopUp2"
+					android:text="" style="@style/PopupText" android:layout_height="wrap_content"
+					android:layout_gravity="center">
+				</TextView>
+
+				<TextView android:layout_width="wrap_content" android:id="@+id/textEndGamePopUp3"
+					android:text="" style="@style/PopupText" android:layout_height="wrap_content"
+					android:layout_gravity="center">
+				</TextView>
+				
+				<TextView android:layout_width="wrap_content" android:id="@+id/textEndGamePopUp4"
+					android:text="" style="@style/PopupText" android:layout_height="wrap_content"
+					android:layout_gravity="center">
+				</TextView>
+			</LinearLayout>
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" 
+		android:id="@+id/linearLayout6"
+		android:layout_height="wrap_content" 
+		android:layout_alignTop="@+id/linearLayout2">
+		
+		<View android:layout_height="1dp" 
+		android:background="#FFFFFF" 
+		android:layout_width="fill_parent"></View>
+		
+	</LinearLayout>
+	
+	<LinearLayout android:layout_height="wrap_content"
+		android:id="@+id/linearLayout2" 
+		android:layout_width="wrap_content"
+		android:layout_margin="10dp"
+		android:layout_centerHorizontal="true">
+
+
+		<Button android:text="@string/button_end_game_ok" android:id="@+id/buttonEndGamePopupOk"
+			style="@style/PopupButton" android:layout_width="100dp"
+			android:layout_height="30dp" android:layout_margin="5dp"></Button>
+
+		<Button android:text="@string/button_view_places" android:id="@+id/buttonEndGamePopupViewCities"
+			style="@style/PopupButton" android:layout_width="150dp"
+			android:layout_height="30dp" android:layout_margin="5dp"></Button>
+
+	</LinearLayout>
+	
+	
+
+</LinearLayout>
+

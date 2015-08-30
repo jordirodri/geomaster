@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+	<color name="background">#55000000</color>	
+	
+	<style name="GeneralText" >
+		<item name="android:paddingLeft">4px</item>
+		<item name="android:paddingBottom">4px</item>
+		<item name="android:textColor">#ffffffff</item>
+		<item name="android:shadowColor">#000000</item>
+		<item name="android:shadowDx">1</item>
+		<item name="android:shadowDy">1</item>
+		<item name="android:shadowRadius">1</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="LayoutGeneral">
+		<item name="android:background">@drawable/layout_general</item>
+	</style>
+	
+	<style name="GameText" parent="GeneralText">
+		<item name="android:textSize">22sp</item>		
+	</style>
+	
+	<style name="PopupTitleText" parent="GeneralText">	
+		<item name="android:textSize">20sp</item>		
+	</style>
+	
+	<style name="PopupText" parent="GeneralText">	
+		<item name="android:textSize">14sp</item>		
+	</style>
+	
+	<style name="ScoresText" parent="GeneralText">	
+		<item name="android:textSize">14sp</item>		
+	</style>
+	
+	<style name="InstructionsTextTitle" parent="GeneralText">	
+		<item name="android:textSize">16sp</item>		
+	</style>
+	
+	<style name="InstructionsText" parent="GeneralText">	
+		<item name="android:textSize">14sp</item>		
+	</style>
+	
+	
+	<style name="MenuButton" parent="GeneralText">
+		<item name="android:textSize">18dp</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:background">@drawable/menubutton</item>	
+	</style>
+	
+	<style name="MenuButtonStar" parent="MenuButton">		
+		<item name="android:drawableLeft">@drawable/star2mini</item>		
+	</style>
+	
+	<style name="MenuButtonLock" parent="MenuButton">			
+		<item name="android:drawableLeft">@drawable/lockiconmini</item>		
+	</style>
+		
+	<style name="GameTitle">
+		<item name="android:textSize">20dp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:padding">10dp</item>
+		<item name="android:background">@drawable/game_title</item>	
+	</style>
+	
+
+	<style name="MenuScreen">
+		<!-- item name="android:background">@drawable/background1</item-->
+		<item name="android:background">@drawable/europe</item>
+	</style>
+	
+	<style name="MenuScreen2">
+		<!-- item name="android:background">@drawable/background1</item-->
+		<item name="android:background">@drawable/suramerica</item>
+	</style>
+	
+	<style name="MenuScreen3">
+		<!-- item name="android:background">@drawable/background1</item-->
+		<item name="android:background">@drawable/asia</item>
+	</style>
+		
+	<style name="ScoresScreen">
+		<!-- item name="android:background">@drawable/background1</item-->
+		<item name="android:background">@drawable/africa</item>
+	</style>
+	
+	<style name="InstructionsScreen">
+		<!-- item name="android:background">@drawable/background1</item-->
+		<item name="android:background">@drawable/oceania</item>
+	</style>
+		
+	<style name="PlayLayoutButtons" parent="android:@Theme.Translucent">
+			<!-- item name="android:background">@color/background</item-->
+           <item name="android:background">@drawable/location_bar</item>
+     </style>
+     
+     <style name="PlayLayoutKmTotal" parent="android:@Theme.Translucent">    	 
+           <!-- item name="android:background">@drawable/score_bar</item-->
+     </style>
+     
+	 <style name="PopupButton" parent="GeneralText">
+		<item name="android:textSize">14sp</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:background">@drawable/popup_button</item>
+	</style>
+	
+	<style name="StartGameInfo" parent="android:@Theme.Translucent">
+		<item name="android:textSize">30dp</item>
+		<item name="android:textColor">#FFFFFF</item>	
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:background">@drawable/ingame_popup</item>		
+	</style>
+	
+	<style name="EndGameInfo" parent="android:@Theme.Translucent">
+		<item name="android:textSize">30dp</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:background">@drawable/ingame_popup</item>			
+	</style>
+
+	
+	<style name="PlayButton" parent="GeneralText">
+		<item name="android:textSize">17dp</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<!-- item name="android:background">@drawable/pinbutton</item-->
+		<item name="android:background">@drawable/play_button</item>
+	</style>
+	
+
+</resources>
+
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/menu1Layout" 
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"	
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/MenuScreen">
+    
+     
+ <ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_above="@+id/adView"
+  android:layout_alignParentTop="true">
+                          
+<LinearLayout android:orientation="vertical" 
+	android:id="@+id/linearLayout1" 
+	android:layout_width="fill_parent" 
+	android:layout_gravity="top" 
+	android:padding="10dp" 
+	android:layout_height="fill_parent">
+
+    <ImageView 
+    android:src="@drawable/geomastertitlepro" 
+    android:id="@+id/imageView1"    
+    android:layout_width="fill_parent" 
+    android:layout_gravity="center" android:layout_height="50dp">
+    </ImageView>
+    
+     <Button style="@style/MenuButton" 
+    		android:layout_height="40dp"     		
+    		android:layout_width="200dp"     		
+    		android:id="@+id/buttonNewGamePlay" 
+    		android:text="@string/button_new_game" 
+    		android:layout_gravity="center"  
+    		android:layout_marginTop="20dp"
+    		android:layout_marginBottom="10dp"></Button>
+  
+    <Button style="@style/MenuButton"  
+    		android:layout_height="40dp"     		
+    		android:layout_width="200dp" 
+    		android:id="@+id/buttonInstructions" 
+    		android:text="@string/button_instructions" 
+    		android:layout_gravity="center"  
+    		android:layout_margin="10dp"></Button>		
+    		
+    		 		
+    <Button style="@style/MenuButton"  
+    		android:layout_height="40dp"     		
+    		android:layout_width="200dp" 
+    		android:id="@+id/buttonSettings" 
+    		android:text="@string/button_settings" 
+    		android:layout_gravity="center"  
+    		android:layout_margin="10dp"></Button>  
+    		
+    <Button style="@style/MenuButton"  
+    		android:layout_height="40dp"     		
+    		android:layout_width="200dp" 
+    		android:id="@+id/buttonScores" 
+    		android:text="@string/button_scores" 
+    		android:layout_gravity="center"  
+    		android:layout_margin="10dp"></Button>  
+    		
+    <!-- Button style="@style/MenuButton"  
+    		android:layout_height="40dp"     		
+    		android:layout_width="200dp" 
+    		android:id="@+id/buttonBuyFullVersion" 
+    		android:text="@string/button_buy_full_version" 
+    		android:layout_gravity="center"  
+    		android:layout_margin="10dp"></Button-->  
+    				    
+</LinearLayout>
+</ScrollView>
+
+  <!-- com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="@string/admob_unit_id"
+                         ads:adSize="BANNER"
+                         ads:loadAdOnCreate="true"
+                         android:layout_alignParentBottom="true"/-->
+</RelativeLayout>

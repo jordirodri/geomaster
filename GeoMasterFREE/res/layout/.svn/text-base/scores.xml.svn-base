@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/layout_root" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"     
+    android:orientation="vertical"        
+    style="@style/ScoresScreen">
+    
+    
+   <!-- LinearLayout 
+    	android:id="@+id/layout_admob"
+    	android:orientation="vertical" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center" 
+    	android:layout_width="fill_parent"
+    	android:layout_alignParentTop="true">   
+    	
+    	<com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="a14e45b1082170f"
+                         ads:adSize="BANNER"
+                         ads:loadAdOnCreate="true"/>
+                         
+    </LinearLayout-->
+    
+    <LinearLayout 
+    	android:id="@+id/layout_scores"
+    	android:orientation="vertical" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center" 
+    	android:layout_width="fill_parent"
+    	android:layout_above="@+id/buttonDone"
+    	
+    	android:layout_margin="20dp"
+    	style="@style/LayoutGeneral">
+    	
+    <LinearLayout 
+    	android:orientation="vertical" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center" 
+    	android:layout_width="fill_parent"
+    	android:layout_margin="5dp">
+    	
+ 	    <TextView style="@style/PopupTitleText" android:layout_margin="3dp"
+				android:id="@+id/textView2" android:layout_height="wrap_content"
+				android:text="@string/scores_title" 
+				android:layout_gravity="center" 
+				android:layout_width="wrap_content"></TextView>
+    	
+    	<View
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="#FFFFFF"/>   	  
+	    
+	</LinearLayout>
+	   
+	<LinearLayout 
+    	android:orientation="vertical" 
+    	android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="fill_parent">
+     
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_margin="20dp">
+                
+   <LinearLayout 
+    	android:orientation="vertical" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent">
+
+		<View
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dp"
+		    android:background="#FFFFFF"/>   	  
+		    
+		<!-- Scores Easy -->
+   		<TextView style="@style/GameText" android:layout_margin="3dp"
+			android:id="@+id/textView2" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="@string/scores_easy"></TextView>			
+			
+		<View
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="#FFFFFF"/>
+
+        <TextView style="@style/ScoresText" android:layout_height="wrap_content" android:text="" android:id="@+id/textScoresTop1Easy" android:layout_width="wrap_content" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+        <TextView style="@style/ScoresText" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content" android:id="@+id/textScoresTop2Easy" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+        <TextView style="@style/ScoresText" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content" android:id="@+id/textScoresTop3Easy" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+        <TextView style="@style/ScoresText" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content" android:id="@+id/textScoresTop4Easy" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+        <TextView style="@style/ScoresText" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content" android:id="@+id/textScoresTop5Easy" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+
+		<View
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="#FFFFFF"/>
+	    
+	    <!-- Scores Normal -->
+	    <TextView style="@style/GameText" android:layout_margin="3dp"
+			android:id="@+id/textView2" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="@string/scores_normal"></TextView>
+			
+			
+		<View
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="#FFFFFF"/>
+
+        <TextView style="@style/ScoresText" android:layout_height="wrap_content" android:text="" android:id="@+id/textScoresTop1Normal" android:layout_width="wrap_content" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+        <TextView style="@style/ScoresText" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content" android:id="@+id/textScoresTop2Normal" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+        <TextView style="@style/ScoresText" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content" android:id="@+id/textScoresTop3Normal" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+        <TextView style="@style/ScoresText" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content" android:id="@+id/textScoresTop4Normal" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+        <TextView style="@style/ScoresText" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content" android:id="@+id/textScoresTop5Normal" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+
+		<View
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="#FFFFFF"/>
+	    
+	     <!-- Scores Hard -->
+	    <TextView style="@style/GameText" android:layout_margin="3dp"
+			android:id="@+id/textView2" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="@string/scores_hard"></TextView>
+			
+			
+		<View
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="#FFFFFF"/>
+
+        <TextView style="@style/ScoresText" android:layout_height="wrap_content" android:text="" android:id="@+id/textScoresTop1Hard" android:layout_width="wrap_content" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+        <TextView style="@style/ScoresText" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content" android:id="@+id/textScoresTop2Hard" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+        <TextView style="@style/ScoresText" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content" android:id="@+id/textScoresTop3Hard" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+        <TextView style="@style/ScoresText" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content" android:id="@+id/textScoresTop4Hard" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+        <TextView style="@style/ScoresText" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content" android:id="@+id/textScoresTop5Hard" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+		
+	    
+   </LinearLayout>
+    
+</ScrollView>
+</LinearLayout>
+  
+    </LinearLayout>
+    
+    
+ 		 <Button 
+	    	android:id="@+id/buttonDone"
+				android:text="@string/button_done" 			
+				style="@style/PopupButton"
+				android:layout_width="fill_parent" 
+				android:layout_height="30dp"			
+				android:layout_marginLeft="25dp"
+				android:layout_marginRight="25dp" 
+				android:layout_marginBottom="5dp" 
+				android:layout_marginTop="5dp" 
+				android:layout_centerHorizontal="true"
+				android:layout_above="@+id/layout_admob">
+		</Button>	
+		
+		
+	<LinearLayout 
+    	android:id="@+id/layout_admob"
+    	android:orientation="vertical" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center" 
+    	android:layout_width="fill_parent"
+    	android:layout_alignParentBottom="true">   
+    	
+    	<com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="@string/admob_unit_id"
+                         ads:adSize="BANNER"
+                         ads:loadAdOnCreate="true"/>
+                         
+    </LinearLayout>
+    
+</RelativeLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>   
+
+	<string name="admob_unit_id">a14e92ca054f46a</string>
+	
+	<!-- string name="admob_unit_id_pro">a14e92c93a0ea29</string-->
+	
+	<!-- api full app-->
+	<!-- string name="google_maps_api_key">0OFYgeSrEOWgeuAtZE-NyIv7SrnHH1nxfMNTlDA</string-->
+	
+	 <!--  1F:9D:FF:A2:07:76:A3:F9:60:79:AF:4B:FB:CF:45:47-->
+	 
+	<string name="google_maps_api_key">0OFYgeSrEOWi8g5j_1YHSx1SYWclf3tEw2QAvzg</string>
+	
+	<!-- api debug work -->
+	<!-- string name="google_maps_api_key">0OFYgeSrEOWhZ5kBg1kuomTShPXF8_pVUQZ11Zg</string-->
+	
+	<!-- api debug home -->
+	<!-- string name="google_maps_api_key">0OFYgeSrEOWhoaSg0dL1FqcCkKlB_gXFuagUm3A</string-->
+	<!--(15-01-2012)-->	
+	<!-- string name="google_maps_api_key">0OFYgeSrEOWitpIvnmLCWnnQO3y2ggZb25LxYCw</string -->
+
+	<color name="blueMapBackground">#0B0974</color>
+
+    <string name="app_name">Geo Master FREE</string>
+    <string name="app_name_pro">Geo Master PRO</string>
+    
+    <string name="game_title">Geo Master</string>
+    <string name="game_over_title">Game Over</string>
+    <string name="start_new_game">New Game</string>
+    
+    <string name="game_over_top_score1">Congratulations!!!</string>
+    <string name="game_over_top_score2">New Top Scores Position #</string>
+    
+    <string name="visited_places_title">Visited places</string> 
+    <string name="visited_places_desc">Select place to view Wikipedia info</string>
+    <!-- Buttons -->
+    <string name="button_popup_ok">Ok</string>
+     <string name="button_new_game">New Game</string>
+    <string name="button_play_easy">Easy</string>
+    <string name="button_play_normal">Normal</string>
+    <string name="button_play_hard">Hard</string>
+    <string name="button_scores">Scores</string>
+    <string name="button_settings">Settings</string>
+    <string name="button_instructions">Instructions</string>
+    <string name="button_buy_full_version">Buy Full Version</string>
+    
+    <string name="button_play_world">World</string>
+    <string name="button_play_europe">Europe</string>
+    <string name="button_play_asia">Asia</string>
+    <string name="button_play_africa">Africa</string>
+    <string name="button_play_america">America</string>
+    <string name="button_play_oceania">Oceania</string>
+    <string name="button_play_us_states">US States</string>
+    <string name="button_play_famous_places">Famous Places</string>
+           
+    <string name="button_end_game_ok">Ok</string>
+    <string name="button_view_places">Visited places</string>
+    
+    <string name="button_view_places_back">Back</string>
+    
+    <string name="confirm_exit">Are you sure you want to quit?</string>
+    
+     <string name="button_ok">Ok</string>
+     <string name="button_cancel">Cancel</string>
+     
+     <string name="instructions1">
+     	The objective of the Geo Master game is to find the correct location on the map.	 	
+	 </string>
+	 
+	 <string name="instructions2">
+		You move the crosshair by moving your finger on the screen. When you think the pointer is in the correct position, press the green button at the bottom right of your screen. 
+		You will then see the exact distance between your selected position and the real target position in the map.
+	 </string>
+	 
+ 	 <string name="instructions3">
+		You will be awarded with the km/miles of the played distance. The closer you are to the target real position the less distance points you are awarded.
+	  </string>
+	  
+ 	<string name="instructions4">
+	    The objective is to finish the game with the lower distance score.
+	</string>
+	 
+	<string name="instructions5"> 
+		The lower total score distance you have the best geography master you are!
+	</string>
+	
+     <string name="instructions6">
+		Game Settings
+	</string>
+	
+	<string name="instructions7">
+		To change the settings for the game select the Settings option on the game menu screen.
+		You can choose the following settings.
+	</string>
+	
+	<string name="instructions8">
+		1. Change the number of rounds you want to play to 10/15/20
+	</string>
+				
+	<string name="instructions9">
+		2. Change the type of google maps style to Satellite/Normal
+	</string>
+		
+	<string name="instructions10">
+		3. Change distance unit to Km/Miles.
+	</string>
+		
+     
+     <string name="settings_title">Settings</string>
+     <string name="instructions_title">Instructions</string>
+     
+     <string name="settings1">Number of Rounds</string>
+     <string name="settings2">Map Type</string>
+     <string name="settings3">Distance Unit</string>
+     
+     <string name="button_done">Done</string>
+     
+     <string name="settings_rounds_option10">10</string>
+     <string name="settings_rounds_option20">15</string>
+     <string name="settings_rounds_option30">20</string>
+     
+     <string name="settings_rounds_option_satellite">Satellite</string>
+     <string name="settings_rounds_option_normal">Normal</string>
+     
+     <string name="settings_km">Km</string>
+     <string name="settings_miles">Miles</string>
+     
+     <string name="scores_title">Scores</string>
+     
+     <string name="scores_easy">Easy</string>
+     <string name="scores_normal">Normal</string>
+     <string name="scores_hard">Hard</string>
+     
+     <string name="buy_full_version">Available in full version</string>
+    
+     
+     
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/layout_root" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"     
+    android:orientation="vertical"       
+    style="@style/InstructionsScreen">
+    
+    <!-- LinearLayout 
+    	android:id="@+id/layout_admob"
+    	android:orientation="vertical" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center" 
+    	android:layout_width="fill_parent"
+    	android:layout_alignParentTop="true">   
+    	
+    	<com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="a14e45b1082170f"
+                         ads:adSize="BANNER"
+                         ads:loadAdOnCreate="true"/>
+                         
+    </LinearLayout-->
+    
+    <LinearLayout 
+    	android:id="@+id/layout_instructions"
+    	android:orientation="vertical" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center" 
+    	android:layout_width="fill_parent"
+    	android:layout_above="@+id/buttonDone"    	
+    	android:layout_margin="20dp"
+    	style="@style/LayoutGeneral">    	
+    	
+    	
+    <LinearLayout 
+    	android:orientation="vertical" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center" 
+    	android:layout_width="fill_parent"
+    	android:layout_margin="5dp">
+    	
+ 	    <TextView style="@style/PopupTitleText" android:layout_margin="3dp"
+				android:id="@+id/textView2" android:layout_height="wrap_content"
+				android:text="@string/instructions_title" 
+				android:layout_gravity="center" 
+				android:layout_width="wrap_content"></TextView>
+    	
+    	<View
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="#FFFFFF"/>   	  
+	    
+	</LinearLayout>
+	   
+	<LinearLayout 
+    	android:orientation="vertical" 
+    	android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="fill_parent">
+     
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_margin="20dp">
+                
+   <LinearLayout 
+    	android:orientation="vertical" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent">
+
+		<View
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dp"
+		    android:background="#FFFFFF"/>   	  
+		    		
+       <TextView style="@style/InstructionsText" android:layout_height="wrap_content" android:text="@string/instructions1" android:id="@+id/textInstructions1" android:layout_width="wrap_content" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+       <TextView style="@style/InstructionsText" android:layout_height="wrap_content" android:text="@string/instructions2" android:id="@+id/textInstructions2" android:layout_width="wrap_content" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+       <TextView style="@style/InstructionsText" android:layout_height="wrap_content" android:text="@string/instructions3" android:id="@+id/textInstructions3" android:layout_width="wrap_content" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+       <TextView style="@style/InstructionsText" android:layout_height="wrap_content" android:text="@string/instructions4" android:id="@+id/textInstructions4" android:layout_width="wrap_content" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+       <TextView style="@style/InstructionsText" android:layout_height="wrap_content" android:text="@string/instructions5" android:id="@+id/textInstructions5" android:layout_width="wrap_content" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+       
+       
+       <TextView style="@style/InstructionsTextTitle" android:layout_height="wrap_content" android:text="@string/instructions6" android:id="@+id/textInstructions6" android:layout_margin="5dp" android:layout_width="fill_parent" android:layout_gravity="center"></TextView>
+       
+       <TextView style="@style/InstructionsText" android:layout_height="wrap_content" android:text="@string/instructions7" android:id="@+id/textInstructions7" android:layout_width="wrap_content" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+       <TextView style="@style/InstructionsText" android:layout_height="wrap_content" android:text="@string/instructions8" android:id="@+id/textInstructions8" android:layout_width="wrap_content" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+       <TextView style="@style/InstructionsText" android:layout_height="wrap_content" android:text="@string/instructions9" android:id="@+id/textInstructions9" android:layout_width="wrap_content" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+       <TextView style="@style/InstructionsText" android:layout_height="wrap_content" android:text="@string/instructions10" android:id="@+id/textInstructions10" android:layout_width="wrap_content" android:layout_gravity="left"  android:layout_margin="5dp"></TextView>
+      
+	   	<View
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="#FFFFFF"/>
+
+       
+   </LinearLayout>
+    
+  </ScrollView>
+</LinearLayout>
+  
+</LinearLayout>
+    
+ 		 <Button 
+	    	android:id="@+id/buttonDone"
+				android:text="@string/button_done" 			
+				style="@style/PopupButton"
+				android:layout_width="fill_parent" 
+				android:layout_height="30dp"			
+				android:layout_marginLeft="25dp"
+				android:layout_marginRight="25dp" 
+				android:layout_marginBottom="5dp" 
+				android:layout_marginTop="5dp" 
+				android:layout_centerHorizontal="true"
+				android:layout_above="@+id/layout_admob">
+		</Button>	
+		
+		
+	<LinearLayout 
+    	android:id="@+id/layout_admob"
+    	android:orientation="vertical" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center" 
+    	android:layout_width="fill_parent"
+    	android:layout_alignParentBottom="true">   
+    	
+    	<com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="@string/admob_unit_id"
+                         ads:adSize="BANNER"
+                         ads:loadAdOnCreate="true"/>
+                         
+    </LinearLayout>
+			
+</RelativeLayout>

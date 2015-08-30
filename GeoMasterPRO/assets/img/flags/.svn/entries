@@ -1,0 +1,56 @@
+10
+
+dir
+3
+http://jordi-pc/svn/GeoMasterPRO/GeoMasterPRO/assets/img/flags
+http://jordi-pc/svn/GeoMasterPRO
+
+
+
+2011-10-11T17:19:06.861328Z
+3
+admin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+be5304b8-acd3-9c47-98f7-8aa4f9cfac7d
+
+
+
+
+
+
+0
+
+africa
+dir
+
+america
+dir
+
+asia
+dir
+
+europe
+dir
+
+football-clubs
+dir
+
+oceania
+dir
+
+us-states
+dir
+

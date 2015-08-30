@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:id="@+id/menu2Layout" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/MenuScreen2">
+    
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_margin="2dp"
+  android:layout_above="@+id/adView"
+  android:layout_alignParentTop="true">
+                              
+<LinearLayout 
+android:orientation="vertical" 
+android:id="@+id/linearLayout1" 
+android:layout_width="fill_parent" 
+android:layout_gravity="top" 
+android:padding="20dp" 
+android:layout_height="fill_parent">
+    
+    <ImageView 
+    android:src="@drawable/geomastertitlefree" 
+    android:id="@+id/imageView1"    
+    android:layout_width="fill_parent" 
+    android:layout_gravity="center" 
+    android:layout_height="50dp"
+    android:layout_marginBottom="15dp">
+    </ImageView> 
+    
+    <Button style="@style/MenuButtonStar" 
+    		android:layout_height="50dp"     		
+    		android:layout_width="200dp"    
+        	android:paddingLeft="20dp"	
+        	android:paddingRight="50dp"        	
+    		android:id="@+id/buttonPlayWorld" 
+    		android:text="@string/button_play_world" 
+    		android:layout_gravity="center"  
+    		android:layout_margin="10dp"></Button>
+    		
+	<Button style="@style/MenuButtonStar" 
+    		android:layout_height="50dp"     		
+    		android:layout_width="200dp"    
+        	android:paddingLeft="20dp"	
+        	android:paddingRight="40dp"        	
+    		android:id="@+id/buttonPlayEurope" 
+    		android:text="@string/button_play_europe" 
+    		android:layout_gravity="center"  
+    		android:layout_margin="10dp"></Button>
+    		
+      <Button style="@style/MenuButtonStar" 
+    		android:layout_height="50dp"     		
+    		android:layout_width="200dp"    
+        	android:paddingLeft="20dp"	
+        	android:paddingRight="50dp"        	 		
+    		android:id="@+id/buttonPlayAfrica" 
+    		android:text="@string/button_play_africa" 
+    		android:layout_gravity="center"  
+    		android:layout_margin="10dp"></Button>
+    
+      <Button style="@style/MenuButtonStar"    
+     		android:layout_height="50dp"     		
+    		android:layout_width="200dp" 
+    		android:paddingLeft="20dp"	
+    		android:paddingRight="40dp"  
+    		android:id="@+id/buttonPlayAmerica" 
+    		android:text="@string/button_play_america" 
+    		android:layout_gravity="center"  
+    		android:layout_margin="10dp"></Button>
+    	
+    <!-- FREE VERSION -->
+   		
+    <Button style="@style/MenuButtonLock" 
+    		android:layout_height="50dp"     		
+    		android:layout_width="200dp"    
+        	android:paddingLeft="20dp"	
+        	android:paddingRight="40dp"	
+    		android:id="@+id/buttonPlayAsia" 
+    		android:text="@string/button_play_asia" 
+    		android:layout_gravity="center"  
+    		android:layout_margin="10dp"></Button>
+    		        		    		
+    <Button style="@style/MenuButtonLock" 
+    		android:layout_height="50dp"     		
+    		android:layout_width="200dp"    
+        	android:paddingLeft="20dp"	
+        	android:paddingRight="40dp"	  		
+    		android:id="@+id/buttonPlayOceania" 
+    		android:text="@string/button_play_oceania" 
+    		android:layout_gravity="center"  
+    		android:layout_margin="10dp"></Button>
+    		
+    <Button style="@style/MenuButtonLock" 
+    		android:layout_height="50dp"     		
+    		android:layout_width="200dp"    
+        	android:paddingLeft="20dp"	
+        	android:paddingRight="40dp"	 	   		
+    		android:id="@+id/buttonPlayUSStates" 
+    		android:text="@string/button_play_us_states" 
+    		android:layout_gravity="center"  
+    		android:layout_margin="10dp"></Button>		
+    		
+    <Button style="@style/MenuButtonLock" 
+    		android:layout_height="50dp"     		
+    		android:layout_width="200dp"    
+        	android:paddingLeft="20dp"	
+        	android:paddingRight="40dp"		   		
+    		android:id="@+id/buttonPlayFamousPlaces" 
+    		android:text="@string/button_play_famous_places" 
+    		android:layout_gravity="center"  
+    		android:layout_margin="10dp"></Button>
+     -->	
+    		
+	<!-- PRO VERSION -->
+    
+     <!-- Button style="@style/MenuButtonStar" 
+    		android:layout_height="50dp"     		
+    		android:layout_width="200dp"    
+        	android:paddingLeft="20dp"	
+        	android:paddingRight="40dp"	
+    		android:id="@+id/buttonPlayAsia" 
+    		android:text="@string/button_play_asia" 
+    		android:layout_gravity="center"  
+    		android:layout_margin="10dp"></Button>
+    		        		    		
+    <Button style="@style/MenuButtonStar" 
+    		android:layout_height="50dp"     		
+    		android:layout_width="200dp"    
+        	android:paddingLeft="20dp"	
+        	android:paddingRight="40dp"	  		
+    		android:id="@+id/buttonPlayOceania" 
+    		android:text="@string/button_play_oceania" 
+    		android:layout_gravity="center"  
+    		android:layout_margin="10dp"></Button>
+    		
+    <Button style="@style/MenuButtonStar" 
+    		android:layout_height="50dp"     		
+    		android:layout_width="200dp"    
+        	android:paddingLeft="20dp"	
+        	android:paddingRight="40dp"	 	   		
+    		android:id="@+id/buttonPlayUSStates" 
+    		android:text="@string/button_play_us_states" 
+    		android:layout_gravity="center"  
+    		android:layout_margin="10dp"></Button>		
+    		
+    <Button style="@style/MenuButtonStar" 
+    		android:layout_height="50dp"     		
+    		android:layout_width="200dp"    
+        	android:paddingLeft="20dp"	
+        	android:paddingRight="40dp"		   		
+    		android:id="@+id/buttonPlayFamousPlaces" 
+    		android:text="@string/button_play_famous_places" 
+    		android:layout_gravity="center"  
+    		android:layout_margin="10dp"></Button>
+    		
+    		-->		
+   
+</LinearLayout>
+
+</ScrollView>
+ <com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="@string/admob_unit_id"
+                         ads:adSize="BANNER"
+                         ads:loadAdOnCreate="true"
+                         android:layout_alignParentBottom="true"/>
+</RelativeLayout>

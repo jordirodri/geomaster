@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center"
+	android:background="@color/blueMapBackground">
+
+
+<RelativeLayout android:orientation="vertical" 
+	android:id="@+id/linearLayout1" 
+	android:layout_width="fill_parent" 
+	android:layout_gravity="center" 	
+	android:layout_height="fill_parent"
+	android:layout_above="@+id/adView"
+	android:background="@color/blueMapBackground">
+	
+	<!-- com.google.android.maps.MapView android:id="@+id/map1" android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" android:enabled="true" android:clickable="true" 
+		android:apiKey="0OFYgeSrEOWjtkggSIpcvGLf0vnvn2mRdT3yTJw" / -->
+
+	<!-- debug key -->
+
+	<!-- trabajo -->
+	<com.google.android.maps.MapView
+		android:id="@+id/map1" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:clickable="true"
+		android:apiKey="@string/google_maps_api_key" />
+
+	
+<!--casa -->
+	<!-- com.google.android.maps.MapView android:id="@+id/map1" android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" android:clickable="true" android:apiKey="0OFYgeSrEOWhoaSg0dL1FqcCkKlB_gXFuagUm3A" 
+		/-->
+
+	<RelativeLayout android:layout_height="wrap_content"
+		style="@style/PlayLayoutButtons" android:id="@+id/linearLayout1"
+		android:layout_gravity="center" android:layout_centerHorizontal="true"
+		android:layout_width="fill_parent" android:layout_margin="10dp">
+
+
+
+		<!-- TextView style="@style/GameText" android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" android:text="" android:id="@+id/textKm" 
+			android:layout_margin="10dp" android:layout_alignParentTop="true"/ -->
+
+		<TextView style="@style/GameText" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text=""
+			android:id="@+id/textCityPlayed" android:layout_margin="8dp"
+			android:layout_alignParentLeft="true" />
+
+		<ImageView
+		android:id="@+id/flagButton" 
+		android:visibility="invisible"		
+		android:layout_width="60dp" 		
+		android:layout_height="30dp" 		
+		android:layout_toRightOf="@+id/textCityPlayed"
+		android:layout_margin="5dp"
+		android:layout_centerVertical="true">
+		</ImageView>
+
+	</RelativeLayout>
+
+
+	<TextView android:text="" style="@style/GameText"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:id="@+id/textKmPlayed" android:layout_alignParentTop="true"
+		android:layout_marginTop="110dp" android:layout_centerInParent="true"></TextView>
+
+
+	<RelativeLayout style="@style/PlayLayoutKmTotal"
+		android:id="@+id/linearLayout1" android:layout_gravity="left"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:layout_marginTop="8dp"
+		android:layout_marginLeft="8dp" android:layout_marginRight="8dp"
+		android:layout_marginBottom="65dp">
+
+
+		<TextView style="@style/GameText" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="" android:id="@+id/textRound"
+			android:layout_marginTop="8dp" android:layout_marginLeft="8dp"
+			android:layout_marginRight="8dp" android:layout_marginBottom="8dp"
+			android:layout_alignParentRight="true" />
+
+		<TextView style="@style/GameText" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="" android:id="@+id/textKmTotal"
+			android:layout_marginTop="30dp" android:layout_marginLeft="8dp"
+			android:layout_marginRight="8dp" android:layout_marginBottom="8dp"
+			android:layout_alignParentRight="true" />
+
+	
+	</RelativeLayout>
+	
+	<Button android:id="@+id/googlemaps_select_location"
+		android:layout_width="50dp" android:layout_height="50dp"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:layout_centerHorizontal="true" style="@style/PlayButton"
+		android:text="" android:layout_margin="8dp" />
+		
+	</RelativeLayout>
+	
+	 <com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="@string/admob_unit_id"
+                         ads:adSize="BANNER"
+                         ads:loadAdOnCreate="true"
+                         android:layout_alignParentBottom="true"/>
+</RelativeLayout>

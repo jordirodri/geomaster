@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"	
+	style="@style/StartGameInfo"	
+    android:layout_centerHorizontal="true" 
+	android:gravity="center_horizontal"
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content"
+	android:padding="5dp">
+
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal"					
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:padding="5dp">
+
+		<ImageView android:id="@+id/imageEndGame"
+					android:src="@drawable/wikipedia"
+					android:layout_width="30dp" android:layout_height="30dp"></ImageView>
+				
+		<TextView 	
+			android:id="@+id/textPopUpTitle" 
+			android:text="@string/visited_places_title" 
+			style="@style/PopupTitleText"		
+			android:layout_gravity="center" 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content">
+		</TextView>
+
+	</LinearLayout>
+				
+			
+	<TextView 	
+		android:id="@+id/textPopUpDesc" 
+		android:text="@string/visited_places_desc" 
+		style="@style/PopupText"		
+		android:layout_gravity="center" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content">			
+	</TextView>
+		
+
+	<ScrollView 
+		android:id="@+id/scroll" 
+		android:layout_width="wrap_content"
+    	android:layout_height="250dp"
+    	android:layout_margin="5dp">
+
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:orientation="vertical"
+			android:id="@+id/VisitedPlacesLayout" android:layout_gravity="center"
+			android:scrollbars="vertical"
+			android:scrollbarAlwaysDrawVerticalTrack="true">
+			
+		</LinearLayout>
+	</ScrollView>
+	
+	<LinearLayout 
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:orientation="vertical" 
+		    android:id="@+id/ButtonLayout" 
+		    android:layout_gravity="center">
+		<Button 
+			android:text="@string/button_view_places_back" 
+			android:id="@+id/buttonVisitedPlacesBack"
+			style="@style/PopupButton"
+			android:layout_width="100dp" 
+			android:layout_height="30dp"			
+			android:layout_margin="2dp"></Button>		
+	</LinearLayout>
+
+</LinearLayout>

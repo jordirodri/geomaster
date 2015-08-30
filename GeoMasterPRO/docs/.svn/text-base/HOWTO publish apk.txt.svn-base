@@ -1,0 +1,78 @@
+
+creating key:
+
+D:\desarrollo\android>keytool -genkey -v -keystore release-key-jordi.keystore -a
+lias sillynamedvars -keyalg RSA -keysize 2048 -validity 10000
+
+
+Jordi Rodriguez
+SillyNamedVars
+
+password: qse
+
+
+signing apk:
+
+D:\desarrollo\android>jarsigner -verbose -keystore release-key-jordi.keystore Bl
+ueScreen.apk sillynamedvars
+
+
+Alignment:
+
+D:\desarrollo\android>zipalign -v 4 BlueScreen.apk BlueScreenV1.apk
+
+verify signature
+
+C:\desarrollo\Android>jarsigner -verify BlueScreen.apk
+
+
+Show MD5 fingerprint certificate
+
+keytool -list -alias sillynamedvars -keystore release-key-pin2map.keystore -storepass qsecofr -keypass qsecofr
+
+BE:2C:87:80:6E:3F:D0:09:54:61:7B:56:37:73:41:7D
+
+
+Show MD5 DEBUG fingerprint certificate
+
+keytool -list -alias androiddebugkey -keystore debug.keystore -storepass android -keypass android 
+
+androiddebugkey
+
+05-Apr-2011, PrivateKeyEntry,
+Certificate fingerprint (MD5): 
+11:1A:C0:05:F7:67:C5:97:C5:BE:4E:DA:84:B0:01:02
+
+2. Casa
+androiddebugkey, 03-ago-2011, PrivateKeyEntry,
+Huella digital de certificado (MD5): BB:04:41:3F:D3:01:97:13:43:D3:0A:E7:FD:7D:5
+D:87
+
+
+KEY GOOGLE MAPS 
+
+http://code.google.com/android/add-ons/google-apis/maps-api-signup.html
+
+1. PRO VERSION
+
+C:\desarrollo\Android\Release-keys>keytool -list -keystore release-key-geomaster-pro
+
+4C:9B:BE:9B:9D:71:90:1B:DE:7A:B4:3A:F8:BD:E2:A6
+
+generated api key
+
+0OFYgeSrEOWjk1F4pBuV2hkAXdPAEOhRIttovOA
+ 
+
+2. FREE VERSION
+
+C:\desarrollo\Android\Release-keys>keytool -list -keystore release-key-geomaster-free
+
+35:6E:3D:76:53:8A:0E:2E:63:9C:89:A8:95:12:13:1B
+ 
+generated api key
+
+0OFYgeSrEOWgeuAtZE-NyIv7SrnHH1nxfMNTlDA
+
+
+

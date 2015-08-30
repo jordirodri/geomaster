@@ -1,0 +1,76 @@
+
+
+- Change intro message: 10x cities for 10x rounds DONE
+
+- put first geopoint to fixed in each continent DONE
+
+- change pin images because in high resolutions it doesnt fill well DONE
+
+- change menu3 background image to asia DONE
+
+- limit minimum zoom DONE
+
+- Error with rounds > 10 ex round = 11, 12, 13 DONE
+
+
+
+* CHANGES TO PUBLISH FREE / PRO VERSION
+
+- Change name in app_name DONE
+- Change package name in manifest package="com.sillynamedvars.geomaster.free" DONE
+- change google maps key DONE
+- change title picture DONE
+- change admob key DONE
+- change var to pro to disable menu buttons DONE
+- change buttons to locked mode DONE
+- Delete BUY FULL VERSION menu button! IMP DONE
+- In PRO MODE disable admob banner!!! IMP DONE
+- In FREE MODE disable button HARD Difficulty DONE
+
+* DESCRIPTION IN MARKET
+
+1. Description
+
+
+Learn geography easily with Geo Master. 
+
+Geo Master is an educational geography game where the player needs to locate cities, famous places and others in the map.
+The distance between your mark and the real location of the target will determine if you are a geography master or not!
+
+Play locating cities in your continent or the whole world. 
+Try different game modes and difficulties to start your challenge!
+
+PRO version
+
+  - Game modes available:
+  
+  1. World  (+600 Cities)
+  2. Europe (+110 Cities)
+  3. Africa (+130 Cities)
+  4. America (+200 Cities)
+  5. Asia  (+130 Cities)
+  6. Oceania  (+35 Cities)
+  6. US States (+50 States capitals)
+  7. Famous Places (+25 Monuments, Buildings, Mountains, and more)
+
+  - Difficulties available
+  
+  1. Easy   (Beginner)
+  2. Normal (Advanced)
+  3. Hard   (Geography Master)
+  
+ 
+ 2. Promo text
+ 
+Learn geography easily with Geo Master. Geo Master is an educational geography game where the player needs to locate cities, famous places and others in the map.
+ 
+ 
+ URLS:
+ 
+ http://code.google.com/android/maps-api-signup.html
+ 
+ 
+ 
+ 
+ 
+ 

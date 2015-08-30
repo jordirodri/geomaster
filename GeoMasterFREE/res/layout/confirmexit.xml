@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_height="wrap_content" 
+	style="@style/StartGameInfo"
+	android:layout_marginTop="20dp" 
+	android:layout_centerHorizontal="true" 
+	android:layout_width="wrap_content">
+
+	<LinearLayout android:orientation="vertical" android:id="@+id/linearLayout1"
+		android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+		<TextView 
+			android:id="@+id/textPopUp1"
+			android:text="@string/confirm_exit" 
+			style="@style/PopupText" 
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:layout_gravity="center" android:layout_width="fill_parent">
+		</TextView>
+
+	</LinearLayout>
+	
+	<LinearLayout 
+		android:id="@+id/linearLayout2" 
+		android:layout_height="wrap_content" 
+		android:layout_alignParentBottom="true" android:layout_gravity="center" android:layout_width="wrap_content">
+	
+		<Button android:text="@string/button_ok" 
+		 	android:id="@+id/buttonPopupOk" 
+		 	style="@style/PopupButton"
+			android:layout_width="100dp" 
+			android:layout_height="30dp"
+			android:layout_margin="5dp" 			
+			android:layout_centerHorizontal="true"></Button>
+			
+		<Button android:text="@string/button_cancel" 
+			android:id="@+id/buttonPopupCancel" 
+			style="@style/PopupButton"
+			android:layout_width="100dp" 
+			android:layout_height="30dp"
+			android:layout_margin="5dp" 			
+			android:layout_centerHorizontal="true"></Button>
+	
+	</LinearLayout>
+	
+</LinearLayout>

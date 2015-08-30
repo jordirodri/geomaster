@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="250dp"
+	android:layout_height="wrap_content"
+	style="@style/StartGameInfo"
+	android:layout_marginTop="20dp"
+    android:layout_centerHorizontal="true">
+
+    <LinearLayout 
+    android:orientation="vertical" 
+    android:id="@+id/linearLayout1" 
+    android:layout_height="wrap_content" android:layout_width="fill_parent">
+   
+	    <LinearLayout 
+	    android:orientation="horizontal" 
+	    android:layout_height="wrap_content" 
+	    android:layout_gravity="center" android:layout_width="wrap_content">
+	   
+	        <ImageView 
+	        android:src="@drawable/infowhite" 
+	        android:id="@+id/imageView1" 
+	        android:layout_width="40dp" 
+	        android:layout_height="40dp"
+	        android:layout_margin="10dp"></ImageView>
+		
+		
+			<TextView 	
+			android:id="@+id/textPopUpTitle" 
+			android:text="@string/start_new_game" 
+			style="@style/PopupTitleText"
+			android:layout_height="wrap_content" 
+			android:layout_gravity="center" 
+			android:layout_width="wrap_content">
+			</TextView>
+			
+		</LinearLayout>
+			
+		<LinearLayout 
+	    android:orientation="vertical" 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="fill_parent" android:layout_gravity="center">
+	   
+			<View
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dp"
+		    android:background="#FFFFFF"/>   	  
+		    
+		    
+		 <LinearLayout 
+	    android:orientation="vertical" 
+	    android:layout_height="wrap_content" 
+	    android:layout_gravity="center" android:layout_width="wrap_content">
+	   
+			<TextView 	
+			android:id="@+id/textPopUp1" 
+			android:text="" 
+			style="@style/PopupText"
+			android:layout_height="wrap_content" 
+			android:layout_gravity="left" 
+			android:layout_width="wrap_content"
+			android:layout_margin="5dp">
+			</TextView>
+		
+			<TextView 	
+			android:layout_width="wrap_content" 
+			android:id="@+id/textPopUp2" 
+			android:text="" 
+			style="@style/PopupText"
+			android:layout_height="wrap_content" android:layout_gravity="left"
+			android:layout_margin="5dp">
+			</TextView>
+			
+			<TextView 	
+			android:layout_width="wrap_content" 
+			android:id="@+id/textPopUp3" 
+			android:text="" 
+			style="@style/PopupText"
+			android:layout_height="wrap_content" android:layout_gravity="left"
+			android:layout_margin="5dp">
+			</TextView>
+			
+			<TextView 	
+			android:layout_width="wrap_content" 
+			android:id="@+id/textPopUp4" 
+			android:text="" 
+			style="@style/PopupText"
+			android:layout_height="wrap_content" android:layout_gravity="left"
+			android:layout_margin="5dp">
+			</TextView>
+	
+	</LinearLayout>
+			<View
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dp"
+		    android:background="#FFFFFF"/>   	
+		    
+		</LinearLayout>
+	
+	<LinearLayout 
+	    android:orientation="vertical" 
+	    android:layout_height="wrap_content" 
+	    android:layout_gravity="center" android:layout_width="wrap_content"
+	    android:layout_margin="5dp">
+	   
+		<Button 
+			android:text="Ok" 
+			android:id="@+id/buttonPopup"
+			style="@style/PopupButton"
+			android:layout_height="30dp"			
+			android:layout_margin="5dp"
+			android:layout_alignParentBottom="true"		
+			android:layout_centerHorizontal="true" 
+			android:layout_width="100dp">
+		</Button>
+		
+	</LinearLayout>
+
+	</LinearLayout>
+</LinearLayout>
